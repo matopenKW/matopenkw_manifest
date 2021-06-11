@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: sample-app
-    image: gcr.io/matopenkw/manifest:latest
+    image: gcr.io/matopenkw/manifest:d579460
     ports:
       - containerPort: 8080
