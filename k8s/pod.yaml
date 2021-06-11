@@ -6,5 +6,7 @@ metadata:
     name: sample-pod
 spec:
   containers:
-  - name: nginx-container
-    image: nginx:1.16
+  - name: sample-app
+    image: gcr.io/matopenkw/manifest:latest
+    ports:
+      - containerPort: 8080
