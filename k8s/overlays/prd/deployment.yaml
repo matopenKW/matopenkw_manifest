@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-deployment
+spec:
+  template:
+    spec:
+      containers:
+      - name: app
+        image: gcr.io/matopenkw/manifest:d579460
+        ports:
+        - containerPort: 8080
+
