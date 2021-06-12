@@ -1,5 +1,0 @@
-resources:
-  # - pod.yaml
-  - deployment.yaml
-  - clusterip.yaml
-  - nodeport.yaml
