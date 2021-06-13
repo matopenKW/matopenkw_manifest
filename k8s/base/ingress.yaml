@@ -4,7 +4,7 @@ metadata:
     name: sample-ingress
     annotations:
         # kubernetes.io/ingress.allow-http: "false"
-        kubernetes.io/ingress.global-static-ip-name: "35.225.5.201"
+        kubernetes.io/ingress.global-static-ip-name: "matopenkw-api"
     labels:
         app: sample-ingress
 spec:
