@@ -1,15 +1,15 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-    name: ingress
+    name: sample-ingress
     annotations:
         # kubernetes.io/ingress.allow-http: "false"
         kubernetes.io/ingress.global-static-ip-name: "35.225.5.201"
     labels:
-        app: ingress
+        app: sample-ingress
 spec:
     tls:
     - secretName: tls-secret
     backend:
-        serviceName: sample-app
+        serviceName: sample-clusterip
         servicePort: 80
