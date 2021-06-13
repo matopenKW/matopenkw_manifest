@@ -4,7 +4,7 @@ metadata:
     name: ingress
     annotations:
         # kubernetes.io/ingress.allow-http: "false"
-        kubernetes.io/ingress.global-static-ip-name: "<外部IP名>"
+        kubernetes.io/ingress.global-static-ip-name: "35.225.5.201"
     labels:
         app: ingress
 spec:
