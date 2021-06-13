@@ -3,9 +3,5 @@ resources:
   - deployment.yaml
   - clusterip.yaml
   # - nodeport.yaml
+  - tls-secret.yaml
   - ingress.yaml
-
-secretGenerator:
-- name: tls-secret
-  files:
-    - ./tls-secret.yaml
