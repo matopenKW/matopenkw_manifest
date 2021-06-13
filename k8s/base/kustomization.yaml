@@ -3,5 +3,3 @@ resources:
   - deployment.yaml
   - clusterip.yaml
   # - nodeport.yaml
-  - tls-secret.yaml
-  - ingress.yaml

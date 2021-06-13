@@ -5,5 +5,4 @@ patches:
   - deployment.yaml
 
 resources:
-  - tls-secret.yaml
-  - ingress.yaml
+  - lb.yaml
