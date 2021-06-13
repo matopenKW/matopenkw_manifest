@@ -1,5 +1,9 @@
 bases:
-- ../../base
+  - ../../base
 
 patches:
-- deployment.yaml
+  - deployment.yaml
+
+resources:
+  - tls-secret.yaml
+  - ingress.yaml
