@@ -1,8 +1,8 @@
 bases:
-- ../../base
+  - ../../base
 
 patches:
-- deployment.yaml
+  - deployment.yaml
 
 resources:
   - nodeport.yaml

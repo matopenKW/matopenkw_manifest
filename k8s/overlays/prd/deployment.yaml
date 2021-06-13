@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: prd-deployment
+  name: deployment
 spec:
   template:
     spec:
