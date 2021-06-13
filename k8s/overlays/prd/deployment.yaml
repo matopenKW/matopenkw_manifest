@@ -7,7 +7,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: gcr.io/matopenkw/manifest:d579460
+        image: gcr.io/matopenkw/manifest:c3f0ba8
         ports:
         - containerPort: 8080
 
