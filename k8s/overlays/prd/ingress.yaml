@@ -3,7 +3,8 @@ kind: Ingress
 metadata:
     name: sample-ingress
     annotations:
-        # kubernetes.io/ingress.allow-http: "false"
+        kubernetes.io/ingress.allow-http: "false"
+        ingress.gcp.kubernetes.io/pre-shared-cert: "https-cert"
         kubernetes.io/ingress.global-static-ip-name: "matopenkw-api"
     labels:
         app: sample-ingress
