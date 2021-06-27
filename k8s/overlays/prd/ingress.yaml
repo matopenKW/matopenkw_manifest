@@ -9,8 +9,8 @@ metadata:
     labels:
         app: sample-ingress
 spec:
-    tls:
-    - secretName: tls-secret
+    # tls:
+    # - secretName: tls-secret
     backend:
         serviceName: sample-clusterip
         servicePort: 80
